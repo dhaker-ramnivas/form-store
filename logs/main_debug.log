@@ -1,0 +1,995 @@
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11834 (2018-07-24 06:24:42; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20322 (2018-07-24 06:24:43; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136 (2018-07-24 06:24:43; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12484 (2018-07-24 06:24:43; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118 (2018-07-24 06:24:43; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404 (2018-07-24 06:24:43; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29 (2018-07-24 06:24:43; basehttp.py:124)
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11834 (2018-07-24 06:24:46; basehttp.py:124)
+INFO:django.server: "GET /admin HTTP/1.1" 301 0 (2018-07-24 06:24:51; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 302 0 (2018-07-24 06:24:51; basehttp.py:124)
+INFO:django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 16429 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/grappelli.js HTTP/1.1" 200 6189 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/jquery/ui/jquery-ui.min.css HTTP/1.1" 200 30163 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/jquery/ui/jquery-ui.min.js HTTP/1.1" 200 240427 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/stylesheets/mueller/grid/output.css HTTP/1.1" 200 36537 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/jquery/jquery.min.js HTTP/1.1" 200 85659 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_timepicker.js HTTP/1.1" 200 7476 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_collapsible.js HTTP/1.1" 304 0 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/stylesheets/screen.css HTTP/1.1" 200 165522 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_autocomplete_generic.js HTTP/1.1" 200 7848 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_related_fk.js HTTP/1.1" 304 0 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_related_generic.js HTTP/1.1" 304 0 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_related_m2m.js HTTP/1.1" 304 0 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_inline.js HTTP/1.1" 200 6713 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_collapsible_group.js HTTP/1.1" 304 0 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_autocomplete_m2m.js HTTP/1.1" 200 9208 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "GET /static/grappelli/js/jquery.grp_autocomplete_fk.js HTTP/1.1" 200 6385 (2018-07-24 06:24:52; basehttp.py:124)
+INFO:django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 (2018-07-24 06:25:43; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /admin/ (2018-07-24 06:25:43; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/templatetags/grp_dashboard_tags.py", line 38, in grp_render_dashboard
+    dashboard = get_index_dashboard(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/utils.py", line 46, in get_index_dashboard
+    ), context)()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/utils.py", line 32, in _get_dashboard_cls
+    mod = import_module(mod)
+  File "/home/ramnivas/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'dashboard'
+ERROR:django.server: "GET /admin/ HTTP/1.1" 500 268201 (2018-07-24 06:25:44; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /admin/ (2018-07-24 06:25:49; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/templatetags/grp_dashboard_tags.py", line 38, in grp_render_dashboard
+    dashboard = get_index_dashboard(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/utils.py", line 46, in get_index_dashboard
+    ), context)()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/utils.py", line 32, in _get_dashboard_cls
+    mod = import_module(mod)
+  File "/home/ramnivas/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'dashboard'
+ERROR:django.server: "GET /admin/ HTTP/1.1" 500 268201 (2018-07-24 06:25:49; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /admin/ (2018-07-24 06:25:52; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 83, in rendered_content
+    content = template.render(context, self._request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 155, in render
+    return compiled_parent._render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/test/utils.py", line 98, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/loader_tags.py", line 67, in render
+    result = block.nodelist.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 943, in render
+    bit = node.render_annotated(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/base.py", line 910, in render_annotated
+    return self.render(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/library.py", line 214, in render
+    _dict = self.func(*resolved_args, **resolved_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/templatetags/grp_dashboard_tags.py", line 38, in grp_render_dashboard
+    dashboard = get_index_dashboard(context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/utils.py", line 46, in get_index_dashboard
+    ), context)()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/grappelli/dashboard/utils.py", line 32, in _get_dashboard_cls
+    mod = import_module(mod)
+  File "/home/ramnivas/venv/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 956, in _find_and_load_unlocked
+ImportError: No module named 'dashboard'
+ERROR:django.server: "GET /admin/ HTTP/1.1" 500 268201 (2018-07-24 06:25:53; basehttp.py:124)
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11724 (2018-07-24 06:29:58; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 13231 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 16106 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 13230 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/fonts.css HTTP/1.1" 304 0 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304 (2018-07-24 06:30:03; basehttp.py:124)
+INFO:django.server: "GET /admin/authtoken/token/ HTTP/1.1" 200 12857 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/core.js HTTP/1.1" 200 7134 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/urlify.js HTTP/1.1" 200 8729 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/changelists.css HTTP/1.1" 304 0 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/actions.js HTTP/1.1" 304 0 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3185 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648 (2018-07-24 06:30:12; basehttp.py:124)
+INFO:django.server: "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0 (2018-07-24 06:30:13; basehttp.py:124)
+INFO:django.server: "GET /admin/authtoken/token/add/ HTTP/1.1" 200 14254 (2018-07-24 06:30:16; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/forms.css HTTP/1.1" 304 0 (2018-07-24 06:30:16; basehttp.py:124)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3185 (2018-07-24 06:30:16; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/widgets.css HTTP/1.1" 304 0 (2018-07-24 06:30:16; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/change_form.js HTTP/1.1" 304 0 (2018-07-24 06:30:16; basehttp.py:124)
+INFO:django.server: "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0 (2018-07-24 06:30:16; basehttp.py:124)
+INFO:django.server: "POST /admin/authtoken/token/add/ HTTP/1.1" 302 0 (2018-07-24 06:30:22; basehttp.py:124)
+INFO:django.server: "GET /admin/authtoken/token/ HTTP/1.1" 200 15023 (2018-07-24 06:30:22; basehttp.py:124)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3185 (2018-07-24 06:30:22; basehttp.py:124)
+INFO:django.server: "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0 (2018-07-24 06:30:22; basehttp.py:124)
+INFO:django.server: "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0 (2018-07-24 06:30:22; basehttp.py:124)
+INFO:django.server: "GET /admin/authtoken/token/5c6acb0ac17a7f37cd402b1b718cb5d68143b7ec/change/ HTTP/1.1" 200 14596 (2018-07-24 06:30:27; basehttp.py:124)
+INFO:django.server: "GET /admin/jsi18n/ HTTP/1.1" 200 3185 (2018-07-24 06:30:27; basehttp.py:124)
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11724 (2018-07-24 06:30:54; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /swagger/ (2018-07-24 06:30:59; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 54, in render
+    self.set_context(data, renderer_context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 70, in set_context
+    renderer_context=renderer_context
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 34, in render
+    return OpenAPICodec().encode(data, **options)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 16, in encode
+    raise TypeError('Expected a `coreapi.Document` instance')
+TypeError: Expected a `coreapi.Document` instance
+ERROR:django.server: "GET /swagger/ HTTP/1.1" 500 112546 (2018-07-24 06:30:59; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /swagger/ (2018-07-24 06:32:16; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 54, in render
+    self.set_context(data, renderer_context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 70, in set_context
+    renderer_context=renderer_context
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 34, in render
+    return OpenAPICodec().encode(data, **options)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 16, in encode
+    raise TypeError('Expected a `coreapi.Document` instance')
+TypeError: Expected a `coreapi.Document` instance
+ERROR:django.server: "GET /swagger/ HTTP/1.1" 500 112681 (2018-07-24 06:32:16; basehttp.py:124)
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11826 (2018-07-24 06:32:20; basehttp.py:124)
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11826 (2018-07-24 06:32:25; basehttp.py:124)
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11826 (2018-07-24 06:33:23; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20322 (2018-07-24 06:33:24; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118 (2018-07-24 06:33:24; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12484 (2018-07-24 06:33:24; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136 (2018-07-24 06:33:24; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404 (2018-07-24 06:33:24; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29 (2018-07-24 06:33:24; basehttp.py:124)
+WARNING:django.server: "GET / HTTP/1.1" 400 11404 (2018-07-24 06:33:27; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/logo_small.png HTTP/1.1" 200 458 (2018-07-24 06:33:27; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/app.bundle.css HTTP/1.1" 200 419 (2018-07-24 06:33:27; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/vendors.bundle.css HTTP/1.1" 200 153889 (2018-07-24 06:33:27; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/vendors.bundle.js HTTP/1.1" 200 1636116 (2018-07-24 06:33:27; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/app.bundle.js HTTP/1.1" 200 1771 (2018-07-24 06:33:27; basehttp.py:124)
+INFO:django.server: "GET /swagger HTTP/1.1" 301 0 (2018-07-24 06:33:38; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /swagger/ (2018-07-24 06:33:38; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 54, in render
+    self.set_context(data, renderer_context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 70, in set_context
+    renderer_context=renderer_context
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 34, in render
+    return OpenAPICodec().encode(data, **options)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 16, in encode
+    raise TypeError('Expected a `coreapi.Document` instance')
+TypeError: Expected a `coreapi.Document` instance
+ERROR:django.server: "GET /swagger/ HTTP/1.1" 500 112154 (2018-07-24 06:33:38; basehttp.py:124)
+INFO:django.server: "GET /admin HTTP/1.1" 301 0 (2018-07-24 06:34:57; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 302 0 (2018-07-24 06:34:57; basehttp.py:124)
+INFO:django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 11430 (2018-07-24 06:34:57; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/base.css HTTP/1.1" 200 16106 (2018-07-24 06:34:57; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/responsive.css HTTP/1.1" 200 17894 (2018-07-24 06:34:57; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/login.css HTTP/1.1" 200 1203 (2018-07-24 06:34:57; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/fonts.css HTTP/1.1" 200 423 (2018-07-24 06:34:58; basehttp.py:124)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304 (2018-07-24 06:34:58; basehttp.py:124)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348 (2018-07-24 06:34:58; basehttp.py:124)
+INFO:django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 (2018-07-24 06:35:01; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 13623 (2018-07-24 06:35:01; basehttp.py:124)
+INFO:django.server: "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412 (2018-07-24 06:35:01; basehttp.py:124)
+INFO:django.server: "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564 (2018-07-24 06:35:02; basehttp.py:124)
+INFO:django.server: "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331 (2018-07-24 06:35:02; basehttp.py:124)
+INFO:django.server: "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380 (2018-07-24 06:35:02; basehttp.py:124)
+WARNING:django.server: "GET / HTTP/1.1" 400 11402 (2018-07-24 06:35:08; basehttp.py:124)
+ERROR:django.request: Internal Server Error: / (2018-07-24 06:38:28; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/request.py", line 76, in wrap_attributeerrors
+    yield
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/request.py", line 222, in user
+    self._authenticate()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/request.py", line 375, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+AttributeError: 'DjangoModelPermissionsOrAnonReadOnly' object has no attribute 'authenticate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 471, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 388, in initial
+    self.perform_authentication(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 314, in perform_authentication
+    request.user
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/request.py", line 222, in user
+    self._authenticate()
+  File "/usr/lib/python3.5/contextlib.py", line 77, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/request.py", line 80, in wrap_attributeerrors
+    six.reraise(type(exc), exc, info[2])
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/utils/six.py", line 683, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/request.py", line 76, in wrap_attributeerrors
+    yield
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/request.py", line 222, in user
+    self._authenticate()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/request.py", line 375, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+rest_framework.request.WrappedAttributeError: 'DjangoModelPermissionsOrAnonReadOnly' object has no attribute 'authenticate'
+ERROR:django.server: "GET / HTTP/1.1" 500 22630 (2018-07-24 06:38:29; basehttp.py:124)
+WARNING:django.server: "GET / HTTP/1.1" 400 11404 (2018-07-24 06:40:03; basehttp.py:124)
+WARNING:django.server: "GET / HTTP/1.1" 400 11402 (2018-07-24 06:42:00; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 13623 (2018-07-24 06:42:14; basehttp.py:124)
+WARNING:django.server: "GET / HTTP/1.1" 400 11404 (2018-07-24 07:07:12; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 13623 (2018-07-24 07:07:47; basehttp.py:124)
+WARNING:django.server: "GET /api HTTP/1.1" 404 11934 (2018-07-24 07:10:46; basehttp.py:124)
+WARNING:django.server: "GET /api/store HTTP/1.1" 404 11952 (2018-07-24 07:10:54; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 27 (2018-07-24 07:11:49; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:22:10; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 485, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 400, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 99314 (2018-07-24 08:22:10; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 0 (2018-07-24 08:29:18; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 0 (2018-07-24 08:29:28; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 87 (2018-07-24 08:30:50; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11991 (2018-07-24 08:31:55; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/vendors.bundle.js HTTP/1.1" 200 1636116 (2018-07-24 08:31:55; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 87 (2018-07-24 08:32:05; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 87 (2018-07-24 08:33:53; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11992 (2018-07-24 08:36:22; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:36:30; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 22, in get
+    return JsonResponse(serializer.data)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/http/response.py", line 503, in __init__
+    'In order to allow non-dict objects to be serialized set the '
+TypeError: In order to allow non-dict objects to be serialized set the safe parameter to False.
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 20933 (2018-07-24 08:36:30; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11992 (2018-07-24 08:39:36; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 241 (2018-07-24 08:39:43; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 241 (2018-07-24 08:39:59; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11992 (2018-07-24 08:40:53; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:40:57; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 23, in get
+    return JsonResponse(serializer,safe=False)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/http/response.py", line 509, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/serializers/json.py", line 104, in default
+    return super().default(o)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 758, in __repr__
+    return unicode_to_repr(representation.list_repr(self, indent=1))
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/representation.py", line 106, in list_repr
+    return serializer_repr(serializer, indent, force_many=child)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/representation.py", line 77, in serializer_repr
+    ret = field_repr(serializer, force_many) + ':'
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/representation.py", line 60, in field_repr
+    arg_string = ', '.join([smart_repr(val) for val in field._args])
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/representation.py", line 60, in <listcomp>
+    arg_string = ', '.join([smart_repr(val) for val in field._args])
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/representation.py", line 37, in smart_repr
+    value = unicode_repr(value)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/compat.py", line 79, in unicode_repr
+    return repr(instance)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/query.py", line 251, in __repr__
+    return '<%s %r>' % (self.__class__.__name__, data)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 513, in __repr__
+    return '<%s: %s>' % (self.__class__.__name__, self)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/models.py", line 20, in __str__
+    return self.title
+AttributeError: 'FormData' object has no attribute 'title'
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 22918 (2018-07-24 08:40:57; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:41:24; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 23, in get
+    return JsonResponse(serializer,safe=False)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/http/response.py", line 509, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/serializers/json.py", line 104, in default
+    return super().default(o)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: FromDataSerializer(<QuerySet [<FormData: Vishl>]>, many=True):
+    name = CharField(max_length=100, validators=[<UniqueValidator(queryset=FormData.objects.all())>])
+    description = CharField(help_text='This is the grey text', max_length=100)
+    data = JSONField(allow_null=True, required=False, style={'base_template': 'textarea.html'}) is not JSON serializable
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 21928 (2018-07-24 08:41:24; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11992 (2018-07-24 08:49:24; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:49:31; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 24, in get
+    "name":form_data["name"]
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/query.py", line 282, in __getitem__
+    raise TypeError
+TypeError
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 20723 (2018-07-24 08:49:31; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:50:46; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <FormData: Vishl> is not JSON serializable
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 121567 (2018-07-24 08:50:46; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11990 (2018-07-24 08:50:50; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:50:54; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <FormData: Vishl> is not JSON serializable
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 120923 (2018-07-24 08:50:54; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:51:52; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/renderers.py", line 105, in render
+    allow_nan=not self.strict, separators=separators
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/json.py", line 28, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.5/json/__init__.py", line 237, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 198, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.5/json/encoder.py", line 256, in iterencode
+    return _iterencode(o, 0)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/utils/encoders.py", line 68, in default
+    return super(JSONEncoder, self).default(obj)
+  File "/usr/lib/python3.5/json/encoder.py", line 179, in default
+    raise TypeError(repr(o) + " is not JSON serializable")
+TypeError: <FormData: Vishl> is not JSON serializable
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 120923 (2018-07-24 08:51:53; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 2 (2018-07-24 08:54:32; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 401 25 (2018-07-24 08:56:32; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 401 27 (2018-07-24 08:56:54; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 08:57:18; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 26, in get
+    return Response({context},status=status.HTTP_200_OK)
+TypeError: unhashable type: 'dict'
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 20528 (2018-07-24 08:57:18; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 2 (2018-07-24 08:57:34; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 09:17:34; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 32, in get
+    return Response({form_list},status=status.HTTP_200_OK)
+TypeError: unhashable type: 'list'
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 20530 (2018-07-24 09:17:34; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 142 (2018-07-24 09:19:02; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 09:22:03; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 24, in get
+    return Response(serializer.data)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'ModelBase' object is not iterable
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 21028 (2018-07-24 09:22:03; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 09:22:06; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 24, in get
+    return Response(serializer.data)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'ModelBase' object is not iterable
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 21028 (2018-07-24 09:22:06; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 09:22:45; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 24, in get
+    return Response(serializer.data)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 765, in data
+    ret = super(ListSerializer, self).data
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 262, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/serializers.py", line 683, in to_representation
+    self.child.to_representation(item) for item in iterable
+TypeError: 'ModelBase' object is not iterable
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 21028 (2018-07-24 09:22:46; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 128 (2018-07-24 09:25:28; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 401 27 (2018-07-24 09:39:04; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 401 27 (2018-07-24 09:39:44; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 401 27 (2018-07-24 09:40:10; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 09:53:55; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "form_store_formdata_pkey"
+DETAIL:  Key (id)=(1) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 50, in post
+    create_form.save();
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1283, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/debug_toolbar/panels/sql/tracking.py", line 164, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/debug_toolbar/panels/sql/tracking.py", line 106, in _record
+    return method(sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "form_store_formdata_pkey"
+DETAIL:  Key (id)=(1) already exists.
+
+ERROR:django.server: "POST /api/store/form HTTP/1.1" 500 23649 (2018-07-24 09:53:55; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 09:54:07; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.IntegrityError: duplicate key value violates unique constraint "form_store_formdata_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 483, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 443, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/views.py", line 480, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/media/ramnivas/Study/Artemedia/formStore/form_backend/form_store/views.py", line 50, in post
+    create_form.save();
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 729, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 759, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 842, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/base.py", line 880, in _do_insert
+    using=using, raw=raw)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/query.py", line 1125, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 1283, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/debug_toolbar/panels/sql/tracking.py", line 164, in execute
+    return self._record(self.cursor.execute, sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/debug_toolbar/panels/sql/tracking.py", line 106, in _record
+    return method(sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/utils.py", line 89, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/db/backends/utils.py", line 85, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: duplicate key value violates unique constraint "form_store_formdata_pkey"
+DETAIL:  Key (id)=(2) already exists.
+
+ERROR:django.server: "POST /api/store/form HTTP/1.1" 500 23649 (2018-07-24 09:54:07; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 401 27 (2018-07-24 09:56:38; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 400 39 (2018-07-24 10:17:59; basehttp.py:124)
+INFO:django.server: "POST /api/store/form HTTP/1.1" 200 27 (2018-07-24 10:18:04; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 288 (2018-07-24 10:18:09; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 400 39 (2018-07-24 10:20:43; basehttp.py:124)
+INFO:django.server: "POST /api/store/form HTTP/1.1" 200 27 (2018-07-24 10:20:51; basehttp.py:124)
+INFO:django.server: "POST /api/store/form HTTP/1.1" 200 27 (2018-07-24 10:21:01; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 400 39 (2018-07-24 10:21:07; basehttp.py:124)
+INFO:django.server: "POST /api/store/form HTTP/1.1" 200 27 (2018-07-24 10:21:28; basehttp.py:124)
+INFO:django.server: "POST /api/store/form HTTP/1.1" 200 27 (2018-07-24 10:21:42; basehttp.py:124)
+INFO:django.server: "POST /api/store/form HTTP/1.1" 200 27 (2018-07-24 10:21:48; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 400 39 (2018-07-24 10:25:32; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 400 39 (2018-07-24 10:25:33; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 400 39 (2018-07-24 10:25:35; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11992 (2018-07-24 10:31:27; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/vendors.bundle.js HTTP/1.1" 200 1636116 (2018-07-24 10:31:27; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11992 (2018-07-24 10:32:27; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11992 (2018-07-24 10:46:05; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 302 0 (2018-07-24 10:51:29; basehttp.py:124)
+INFO:django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 11430 (2018-07-24 10:51:29; basehttp.py:124)
+INFO:django.server: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0 (2018-07-24 10:51:32; basehttp.py:124)
+INFO:django.server: "GET /admin/ HTTP/1.1" 200 13623 (2018-07-24 10:51:32; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 10:51:54; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 34, in render
+    return OpenAPICodec().encode(data, **options)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 16, in encode
+    raise TypeError('Expected a `coreapi.Document` instance')
+TypeError: Expected a `coreapi.Document` instance
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 102502 (2018-07-24 10:51:54; basehttp.py:124)
+ERROR:django.request: Internal Server Error: /api/store/form (2018-07-24 10:53:39; exception.py:118)
+Traceback (most recent call last):
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 158, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/core/handlers/base.py", line 156, in _get_response
+    response = response.render()
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework/response.py", line 72, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 34, in render
+    return OpenAPICodec().encode(data, **options)
+  File "/home/ramnivas/venv/lib/python3.5/site-packages/rest_framework_swagger/renderers.py", line 16, in encode
+    raise TypeError('Expected a `coreapi.Document` instance')
+TypeError: Expected a `coreapi.Document` instance
+ERROR:django.server: "GET /api/store/form HTTP/1.1" 500 102502 (2018-07-24 10:53:39; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 689 (2018-07-24 10:53:57; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11990 (2018-07-24 10:59:18; basehttp.py:124)
+WARNING:django.server: "POST /api/store/form HTTP/1.1" 400 39 (2018-07-24 10:59:29; basehttp.py:124)
+INFO:django.server: "GET / HTTP/1.1" 200 11992 (2018-07-24 11:46:13; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 689 (2018-07-24 11:47:30; basehttp.py:124)
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11938 (2018-07-25 04:43:00; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0 (2018-07-25 04:43:00; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0 (2018-07-25 04:43:00; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0 (2018-07-25 04:43:00; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0 (2018-07-25 04:43:00; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0 (2018-07-25 04:43:00; basehttp.py:124)
+INFO:django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0 (2018-07-25 04:43:01; basehttp.py:124)
+WARNING:django.server: "GET /favicon.ico HTTP/1.1" 404 11958 (2018-07-25 04:43:02; basehttp.py:124)
+WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11937 (2018-07-25 04:43:04; basehttp.py:124)
+INFO:django.server: "GET /swagger/ HTTP/1.1" 200 11980 (2018-07-25 04:43:16; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/logo_small.png HTTP/1.1" 304 0 (2018-07-25 04:43:16; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/app.bundle.css HTTP/1.1" 304 0 (2018-07-25 04:43:16; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/vendors.bundle.css HTTP/1.1" 200 153889 (2018-07-25 04:43:17; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/app.bundle.js HTTP/1.1" 304 0 (2018-07-25 04:43:17; basehttp.py:124)
+INFO:django.server: "GET /static/rest_framework_swagger/bundles/vendors.bundle.js HTTP/1.1" 200 1636116 (2018-07-25 04:43:17; basehttp.py:124)
+INFO:django.server: "GET /api/store/form HTTP/1.1" 200 689 (2018-07-25 04:43:24; basehttp.py:124)
