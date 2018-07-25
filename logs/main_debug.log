@@ -5,7 +5,7 @@ INFO:django.server: "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12484
 INFO:django.server: "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118 (2018-07-24 06:24:43; basehttp.py:124)
 INFO:django.server: "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404 (2018-07-24 06:24:43; basehttp.py:124)
 INFO:django.server: "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29 (2018-07-24 06:24:43; basehttp.py:124)
-WARNING:django.server: "GET /pos/ HTTP/1.1" 404 11834 (2018-07-24 06:24:46; basehttp.py:124)
+WARNING:django.ser gver: "GET /pos/ HTTP/1.1" 404 11834 (2018-07-24 06:24:46; basehttp.py:124)
 INFO:django.server: "GET /admin HTTP/1.1" 301 0 (2018-07-24 06:24:51; basehttp.py:124)
 INFO:django.server: "GET /admin/ HTTP/1.1" 302 0 (2018-07-24 06:24:51; basehttp.py:124)
 INFO:django.server: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 16429 (2018-07-24 06:24:52; basehttp.py:124)
