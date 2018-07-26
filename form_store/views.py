@@ -125,7 +125,7 @@ def insertForm(request):
 
 
 @csrf_exempt
-@api_view(('PUT',))
+@api_view(('POST',))
 @renderer_classes((JSONRenderer,))
 def updateForm(request):
     try:
