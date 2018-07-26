@@ -178,6 +178,14 @@ INTERNAL_IPS = ['127.0.0.1']
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.AllowAny',),
     'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework.authentication.SessionAuthentication',),
+    'DEFAULT_RENDERER_CLASSES': (
+            'rest_framework.renderers.JSONRenderer',
+            'rest_framework.renderers.BrowsableAPIRenderer',
+            'rest_framework.parsers.FormParser',
+            'rest_framework.parsers.MultiPartParser',
+            'rest_framework.parsers.JSONParser',
+        ),
+
 }
 
 
